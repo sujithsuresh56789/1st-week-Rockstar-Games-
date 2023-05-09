@@ -1,0 +1,79 @@
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first-img{
+    height: 590px;
+}
+.flex-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 46px;
+    padding-top: 50px;
+}
+.GTAthe{
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+.los-santos{
+    font-weight: bolder;
+    font-size: 38px;
+    letter-spacing: -2px;
+    margin-bottom: -42px;
+}
+.top{
+    margin-top: -40px;
+}
+.watch-now{
+    margin-top: 80px;
+    width: 243px;
+    height: 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    cursor: pointer;
+}
+.watch-now-1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 6px;
+}
+.watch-now:hover{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+    transition: 0.25s;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    padding-top: 180px;
+
+}
+.bar-1{
+    width: 75px;
+    height: 3px;
+    background-color:grey;
+    border-radius: 8px;
+    margin-left: -50px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: grey;
+    
+}
+.bar-1:active{
+    background-color: white;
+}
+.bar-12{
+    width: 80px;
+    height: 3px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: -1px;
+    cursor: pointer;
+}
